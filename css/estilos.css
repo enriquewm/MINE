@@ -11,10 +11,9 @@ body {
 }
 h1 {
 	margin: 0;
-	padding-top: .8em;
-	font-family: 'Dancing Script', cursive;
+	padding-top: .8em;	font-family: 'Dancing Script', cursive;
 }
-.nubes, .corazonn {
+.nubes,  {
 	width: 220px;
 	height: 220px;
 
@@ -31,7 +30,7 @@ h1 {
 	z-index: 20;
 }
 
-.tierra, .corazonn {
+.tierra,{
 	width: 200px;
 	height: 200px;
 
@@ -158,11 +157,6 @@ footer {
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 }
-p{
-	margin-top: 290px;
-	font-size: 2.5em;
-	font-family: 'Dancing Script', cursive;
-}
 
 p a{
 	text-decoration: none;
@@ -276,33 +270,67 @@ p a{
 	color: #ff0217;
 }
 
-
-
-.corazonn {
-	    display: inline-block;
-    font-size: 70px;
-    margin: 0;
-    margin-right: 30px;
-    color: #c10313;
-    animation: latidos 1s infinite;
-    transform-origin: center;
-    position: relative;
-    
-    
-    
-    
+.contenedor{
+	margin-top: 120px !important;
+	background: #fff;
+	width: 70%;
+	margin: auto;
+	border-radius: 5px;
 }
 
-.btn-cc{
-	text-decoration: none;
-	color: #fff;
+.contenedor h1{
+	color: #c40584;
+	width: 100%;
+	font-size: 2.3em;
+	background: #faf9ff;
+	padding-bottom: 40px;
+	border-bottom: solid 3px #c40584;
+}
+
+.contenido{
+	width: 80%;
+	margin: auto;
+	background: ;
+	border-radius: 10px;
+}
+
+.contenido h2{
 	font-family: 'Dancing Script', cursive;
-	font-size: .2em;
-	
-    
+	padding: 20px;
+	color: #c40584;
+	font-size: 2em;
 }
 
-.corazonn:hover{
+.contenido p{
+	width: 80%;
+	color: #c40584;
+	margin: auto;
+	text-align: justify;
+}
+
+.btn-jugar, a{
+	font-size: 1.3em;
+	background: #c40584;
+	border: none;
+	margin-bottom: 30px;
+	padding: 10px;
+	border-radius: 15px;
+	color: #fff;
 	transition:1s;
-	color: #ff0217;
+}
+a{
+	text-decoration: none;
+}
+
+.btn-jugar:hover{
+	background: #ed2ad6;
+	border: none;
+	
+}
+
+.btn-jugar:focus{
+	background: transparent;
+	color: #c40584;
+	border: none;
+	
 }

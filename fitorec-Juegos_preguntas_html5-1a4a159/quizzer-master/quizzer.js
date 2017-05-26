@@ -11,34 +11,66 @@ var questions = [
 	],
 	[
 		"¿Qué se pasa el 19 de Mayo?",
-		"Interpretado",
-		"Compilado",
-		"Los 2 anteriores",
+		"Dia de la papa",
+		"Dia internaciona de Minerva y Enrique",
+		"firma del acta de la independencia",
 		"Ninguno de los anteriores",
-		0
+		1
 	],
 	[
-		"¿jQuery es una biblioteca para qué lenguaje?",
-		"Python",
-		"PHP",
-		"Java",
+		"¿Bebida favorita de Enrique?",
+		"",
+		"Coca Cola",
+		"Cafe",
 		"Ninguno de los anteriores",
 		3
 	],
 	[
-		"¿Cómo se marca el inicio de código PHP?",
-		"&lt;?php",
-		"&lt;?",
-		"Los 2 anteriores",
-		"Ninguno de los anteriores",
+		"¿Tema para boda?",
+		"cucarachas y ratones",
+		"corazones y flores",
+		"la luna  y la torre  ifel",
+		"frutas :D",
 		2
 	],
 	[
-		"¿Quién diseño Javascript?",
-		"Mark Zuckerberg",
-		"Bill Gates",
-		"Brendan Eich",
-		"Rasmus Lerdorf",
+		"nombre de los futuros hijos",
+		"sandra y santiago",
+		"rosa y juan",
+		"enrique y minerva",
+		"santiago y camil",
+		3
+	],
+	[
+		"color favorito de  Enrique",
+		"ninguno",
+		"todos",
+		"negro",
+		"magenta",
+		1
+	],
+	[
+		"que cambiaria minerva de enrique",
+		"nada",
+		"su pelo ",
+		"su naris",
+		"la espalda que le gusta tanto a ella",
+		0
+	],
+	[
+		"por que estan juntos Minerva y Enrique?",
+		"nadie lo sabe",
+		"por suerte",
+		"cosas del destino",
+		"por que minerva lo acoso hasta que lo hizo suyo :$",
+		3
+	],
+	[
+		"mejor momento juntos",
+		"momentos buenos",
+		"momentos malos",
+		"momentos bueno y malos",
+		"todas  los  anteriores",
 		2
 	],
 ];
