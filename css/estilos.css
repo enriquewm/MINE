@@ -14,7 +14,7 @@ h1 {
 	padding-top: .8em;
 	font-family: 'Dancing Script', cursive;
 }
-.nubes {
+.nubes, .corazonn {
 	width: 220px;
 	height: 220px;
 
@@ -31,7 +31,7 @@ h1 {
 	z-index: 20;
 }
 
-.tierra {
+.tierra, .corazonn {
 	width: 200px;
 	height: 200px;
 
@@ -144,6 +144,7 @@ footer {
 	padding-left: 40%;
 	padding-top: 3px;
 	font-family: 'Amatic SC', cursive;
+	
 }
 
 .mono-cro td{
@@ -159,7 +160,7 @@ footer {
 }
 p{
 	margin-top: 290px;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: 'Dancing Script', cursive;
 }
 
@@ -169,4 +170,139 @@ p a{
 }
 iframe{
 	border: 2px solid #fff;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 870px){
+	.mono-cro{
+		padding-left: 37%;
+		
+	}
+	.mono-cro td{
+	padding: 5px;
+	font-size: 1.1em;
+	font-family: 'Dancing Script', cursive;
+}
+
+.mono-cro .info td{
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+}
+
+@media screen and (max-width: 600px){
+	.mono-cro{
+		padding-left: 27%;
+		
+	}
+	.mono-cro td{
+	padding: 5px;
+	font-size: 1.1em;
+	font-family: 'Dancing Script', cursive;
+}
+
+.mono-cro .info td{
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+}
+@media screen and (max-width: 300px){
+	.mono-cro{
+		padding-left: 17%;
+		
+	}
+	.mono-cro td{
+	padding: 0px;
+	font-size: 1.1em;
+	font-family: 'Dancing Script', cursive;
+}
+
+.mono-cro .info td{
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+p{
+	margin-top: 190px;
+	font-size: 2em;
+	font-family: 'Dancing Script', cursive;
+}
+
+p a{
+	text-decoration: none;
+	color: #fff;
+}
+}
+
+
+
+/* Animación con keyframe llamada "latidos" */
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.3); }
+    to { transform: none; }
+}
+/* En la clase corazon vamos a llamar latidos en la animación  */
+.corazon {
+	    display: inline-block;
+    font-size: 70px;
+    margin: 0;
+    margin-right: 30px;
+    color: #c10313;
+    animation: latidos 1s infinite;
+    transform-origin: center;
+    position: absolute;
+    display: block;
+    margin-left: 655px;
+
+}
+
+.btn-c{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	font-size: .2em;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+}
+
+.corazon:hover{
+	transition:1s;
+	color: #ff0217;
+}
+
+
+
+.corazonn {
+	    display: inline-block;
+    font-size: 70px;
+    margin: 0;
+    margin-right: 30px;
+    color: #c10313;
+    animation: latidos 1s infinite;
+    transform-origin: center;
+    position: relative;
+    
+    
+    
+    
+}
+
+.btn-cc{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	font-size: .2em;
+	
+    
+}
+
+.corazonn:hover{
+	transition:1s;
+	color: #ff0217;
 }
